@@ -7,7 +7,6 @@ describe Phantomjs do
     end
 
     it 'points to a linux path' do
-
       Phantomjs.executable_path.should match /linux/
     end
   end
